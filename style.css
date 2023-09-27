@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.size{
+    background-color: grey;
+}
+
+.page {
+    width: 1150px;
+    display: grid;
+    background-color: #ADD8E6;
+    grid-template-columns: 350px 350px 350px;
+    margin: 0 auto;
+    grid-gap: 1em;
+    padding: 2em;
+}
+
+.block-1 .size {
+    height: 150px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.block-2 .size, .block-3 .size{
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block-4 .size{
+    height: 220px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block-5 .size{
+    height: 230px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block-6 .size{
+    height: 350px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block-7 .size{
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block-8 .size, .block-9 .size{
+    height: 150px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    background-color: white;
+    padding: 1em;
+    font-size: large;
+    line-height: 2em;
+}
+
+.block-5{
+    margin-top: -15.5em;
+}
+
+.block-4 {
+    margin-top: -8em;
+}
+
+.block-7 {
+    margin-top: -31em;
+}
+
+.block-8 {
+    margin-top: -20em;
+}
